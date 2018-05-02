@@ -76,7 +76,6 @@ app.delete('/todos/:id', authenticate,(req, res) => {
     }
 });
 
-// Update with authentication
 app.patch('/todos/:id', authenticate, (req, res) => {
     var id = req.params.id;
     var body = _.pick(req.body, ['text', 'completed']);

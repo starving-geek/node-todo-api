@@ -167,9 +167,6 @@ describe('DELETE /todos/:id', () => {
   });
 });
 
-// Update with autthentication
-// Add another test case try to update first todo as second
-// user - assert a 404 response
 describe('PATCH /todos/:id', () => {
   it('should update the todo', (done) => {
     var hexId = todos[0]._id.toHexString();
