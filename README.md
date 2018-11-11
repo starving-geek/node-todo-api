@@ -5,8 +5,8 @@ This is an API that allows you to create a to do list.
 ### Prerequisites
 
 What things you need to install the software and how to install them
-[Node.js](https://nodejs.org)
-[MongoDB](https://www.mongodb.com/)
+* [Node.js](https://nodejs.org)
+* [MongoDB](https://www.mongodb.com/)
 
 ### Installing
 
